@@ -169,7 +169,7 @@ resource "aws_eip" "static_eip" {
 
 # Create an Amazon ECR repository
 resource "aws_ecr_repository" "my_repository" {
-  name = "mkhan348-docker-assignment"
+  name = "docker-assignment"
   force_delete = true
 }
 
